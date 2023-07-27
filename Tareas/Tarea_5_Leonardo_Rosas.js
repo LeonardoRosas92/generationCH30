@@ -27,6 +27,5 @@ for (let index = 0; index < people.length; index++) {
     }
     console.log(people[index])
 }
-
 //Obtener el index de Maria
 console.log('El indice de Maria es: '+people.indexOf('Maria'));
