@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    color: #555;
+}
+
+#primero {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & p{
+        color: #369;
+    }
+    & em{
+        color: #0000BB;
+        background-color: #FFFFCC;
+    }
+}
+
+.especial {
+    color: #FFFF00;
+    background-color: #000;
+}
+
+.normal {
+    & span {
+        font-weight: bold;
+    }
+}
+
+a{
+    color: #C30;
+}
